@@ -60,5 +60,3 @@ try:
 
 finally:
     driver.quit()
-    
-# Delete the 
