@@ -57,6 +57,8 @@ try:
     
     download_button = driver.find_element(By.XPATH, "//button/span[contains(text(), 'Download')]")
     download_button.click()
+    
+    time.sleep(0.25)
 
 finally:
     driver.quit()
